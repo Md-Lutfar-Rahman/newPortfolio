@@ -13,6 +13,15 @@
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     @include('frontend.layouts.navbar')
+
     @yield('content')
+    @include('frontend.layouts.footer')
+
+
+        <!-- Scripts -->
+        <script src="{{asset('js/jquery.min.js')}}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+        <script src="{{asset('js/bootstrap.min.js')}}"></script> <!-- Bootstrap framework -->
+        <script src="{{asset('js/jquery.easing.min.js')}}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+        <script src="{{asset('js/scripts.js')}}"></script> <!-- Custom scripts -->
 </body>
 </html>

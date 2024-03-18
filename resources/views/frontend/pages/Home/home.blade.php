@@ -7,5 +7,9 @@
     @include('frontend.pages.Services.services')
     @include('frontend.pages.Details.details')
     @include('frontend.pages.Projects.projects')
-
+    @include('frontend.pages.Works.works')
+    @include('frontend.pages.Testimonials.testimonials')
+    @include('frontend.pages.FAQ.faq_sec')
+    @include('frontend.pages.FAQ.faq_ques')
+    @include('frontend.pages.Contact.contact')
 @endsection
